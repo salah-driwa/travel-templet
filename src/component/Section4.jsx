@@ -3,7 +3,7 @@ import AnimationSection from './Animation-section';
 const Section4 = () => {
     return (
         <section className="py-16 bg-cover bg-center  bg-black min-h-[500px] " style={{ backgroundImage: `url(${bg})` }} id="explore">
-          <div className=' backdrop-blur-2xl -mt-56 h-52' ></div>
+          <div className=' backdrop-blur-2xl  -mt-32  h-44' ></div>
         <div className="flex justify-around pt-32">
           <div className="">
             <AnimationSection  x={10}>
