@@ -6,7 +6,7 @@ const DestinationCard = ({ destination }) => {
 
   return (
     <motion.div
-      className="max-w-sm bg-white rounded shadow-lg m-4 relative"
+      className="max-w-sm bg-white rounded shadow-lg m-4 relative drop-shadow-lg"
       whileHover={{ scale: 1.1, y: -10 }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}

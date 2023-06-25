@@ -9,7 +9,7 @@ import Section4 from './component/Section4';
 
 function App() {
   return (
-    <div className="  bg-black">
+    <div className="  bg-black  overflow-hidden">
      <Navbar/>
      <Section1/>
      <Section2/>

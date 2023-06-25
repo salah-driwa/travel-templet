@@ -1,10 +1,10 @@
-import { motion } from "framer-motion"
+
 import Button from "./Button";
 import AnimationSection from "./Animation-section";
 
 const Login = () => {
     return ( 
-        <section className=" flex justify-center gap-32 my-6 h-[600px]">
+        <section className=" flex sm:flex-row flex-col sm:justify-center sm:gap-32 gap-10 px-5 my-6 h-[600px] w-full">
 <div>   <AnimationSection x={0}>
     <img
         
@@ -13,15 +13,15 @@ const Login = () => {
 </div>
 <div>
     <AnimationSection x={30}>
-<h1 className=" text-5xl text-white font-bold   w-96">Your Journey Start Here</h1>
+<h1 className=" sm:text-5xl text-2xl text-white font-bold   sm:w-96">Your Journey Start Here</h1>
 </AnimationSection>
 
 <AnimationSection x={30} delay={0.2}>
-<p className=" text-xl text-white font-bold py-10 opacity-70  w-96">Get up to and enjoy  your trip now ,enjoy your journey </p>
+<p className=" sm:text-xl  px-3 py-5 text-white font-bold sm:py-10 opacity-70  sm:w-96">Get up to and enjoy  your trip now ,enjoy your journey </p>
 </AnimationSection>
 <AnimationSection x={30} delay={0.4}>
-<input type="text" className="  bg-gray-800 bg-opacity-70 h-12 my-5 w-full rounded-sm text-left px-4 text-white" placeholder=" Enter Your Email"></input>
-<Button>Subscribe To Our Newsletter</Button>
+<input type="text" className="  bg-gray-800 bg-opacity-70 h-12 sm:my-5 my-4  w-72 sm:w-full  rounded-sm text-left px-6 sm:px-4 text-white" placeholder=" Enter Your Email"></input>
+ <div className=""><Button>Subscribe To Our Newsletter</Button></div>
 </AnimationSection>
 </div>
       </section>

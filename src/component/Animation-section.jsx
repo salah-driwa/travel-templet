@@ -4,7 +4,7 @@ import { useRef } from 'react';
 const AnimationSection = ({
   children,
   opacity = 0,
-  x = -500,
+  x = -10,
   y = 0,
   duration = 0.9,
   delay = 0,

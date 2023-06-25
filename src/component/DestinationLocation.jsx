@@ -10,7 +10,7 @@ const DestinationLocation = ({ destination }) => {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className=" w-96  h-60 overflow-hidden rounded-md">
+      <div className=" sm:w-96 w-72 h-52 sm:h-60 overflow-hidden rounded-md shadow-white">
         <motion.img
           whileHover={{ scale: 1.2 }}
        
