@@ -7,7 +7,7 @@ const About = () => {
     return (
 
       <section className="pt-52 sm:items-center sm:justify-between sm:py-16 bg-cover bg-center min-h-screen bg-black  " id='about' >
-        <div className=' backdrop-blur-3xl  -mt-32 h-52' ></div>
+        <div className=' backdrop-blur-3xl  -mt-64 sm:-mt-32   h-32 sm:h-52' ></div>
         <div className="flex flex-row sm:flex-col sm:items-center sm:justify-center ">
   <div className="   sm:px-8 sm:ml-36">
     <div className="flex sm:flex-row flex-col items-center justify-start   gap-10">
