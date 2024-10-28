@@ -22,10 +22,9 @@ Experience the live version of the project here: [Travel Site Live](https://temp
 ## Screenshots
 
 ### Home Page
-![Home Page](https://cdn.dribbble.com/userupload/10197915/file/original-54d09f49bd7ac66da46995a5ff1ab7ce.png?resize=1024x768&vertical=center)
+![Home Page](![Uploading image.png…]()
+)
 
-### Destination Details
-![Destination Details](https://cdn.dribbble.com/userupload/10197915/file/original-54d09f49bd7ac66da46995a5ff1ab7ce.png?resize=1024x768&vertical=center)
 
 ## Installation
 
